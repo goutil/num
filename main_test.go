@@ -11,3 +11,13 @@ func TestMinInt64(t *testing.T) {
 		t.Errorf("Expected %v to be < %v", -5, -4)
 	}
 }
+
+func TestMaxInt64(t *testing.T) {
+	if MaxInt64(0, -1) != 0 {
+		t.Errorf("Expected %v to be > %v", 0, -1)
+	}
+
+	if MaxInt64(-5, -4) != -4 {
+		t.Errorf("Expected %v to be > %v", -4, -5)
+	}
+}
