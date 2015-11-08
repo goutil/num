@@ -21,3 +21,13 @@ func TestMaxInt64(t *testing.T) {
 		t.Errorf("Expected %v to be > %v", -4, -5)
 	}
 }
+
+func TestAbsInt(t *testing.T) {
+	if AbsInt(-3) != 3 {
+		t.Errorf("Expected %v to be %v", AbsInt(-3), 3)
+	}
+
+	if AbsInt(-7-3) != 10 {
+		t.Errorf("Expected %v to be %v", AbsInt(-7-3), 10)
+	}
+}

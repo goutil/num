@@ -17,3 +17,11 @@ func MaxInt64(a, b int64) int64 {
 		return b
 	}
 }
+
+// AbsInt Returns the absolute value of `v`.
+func AbsInt(v int) int {
+	if v < 0 {
+		v = -v
+	}
+	return v
+}
