@@ -25,3 +25,21 @@ func AbsInt(v int) int {
 	}
 	return v
 }
+
+// MinInt Returns the integer with the lowest value.
+func MinInt(a, b int) int {
+	if a < b {
+		return a
+	} else {
+		return b
+	}
+}
+
+// MaxInt Returns the integer with the highest value.
+func MaxInt(a, b int) int {
+	if a > b {
+		return a
+	} else {
+		return b
+	}
+}
