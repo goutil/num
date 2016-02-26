@@ -1,2 +1,4 @@
 # num
-A bunch of math-related functions for the Go language.
+[![GoDoc](https://godoc.org/github.com/goutil/num?status.svg)](https://godoc.org/github.com/goutil/num)
+
+Package num provides some useful algorithms for working with numbers, math, etc. 
